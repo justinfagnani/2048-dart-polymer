@@ -1,0 +1,1751 @@
+---
+build.dart --machine --full
+
+build.dart finished [959 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [933 ms]
+
+---
+build.dart --machine --changed=lib/dart_2048.html
+
+build.dart finished [945 ms]
+
+---
+build.dart --machine --changed=lib/dart_2048.html
+[{"method":"warning","params":{"file":"lib/dart_2048.html","message":"definition for Polymer element with tag name \"d2048-grid\" not found.","line":5,"charStart":70,"charEnd":82}}]
+build.dart finished [926 ms]
+
+---
+build.dart --machine --changed=lib/dart_2048.html
+[{"method":"warning","params":{"file":"lib/dart_2048.html","message":"definition for Polymer element with tag name \"d2048-grid\" not found.","line":5,"charStart":79,"charEnd":91}}]
+build.dart finished [950 ms]
+
+---
+build.dart --machine --changed=lib/d2048-grid.dart
+[{"method":"warning","params":{"file":"lib/dart_2048.html","message":"definition for Polymer element with tag name \"d2048-grid\" not found.","line":5,"charStart":79,"charEnd":91}}]
+build.dart finished [942 ms]
+
+---
+build.dart --machine --changed=lib/d2048-grid.html --removed=lib/d2048-grid.dart
+[{"method":"warning","params":{"file":"lib/d2048-grid.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"warning","params":{"file":"lib/dart_2048.html","message":"definition for Polymer element with tag name \"d2048-grid\" not found.","line":5,"charStart":79,"charEnd":91}}]
+build.dart finished [933 ms]
+
+---
+build.dart --machine --changed=lib/d2048_game.html --removed=lib/dart_2048.html
+[{"method":"warning","params":{"file":"lib/d2048-grid.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"warning","params":{"file":"lib/d2048_game.html","message":"definition for Polymer element with tag name \"d2048-grid\" not found.","line":5,"charStart":79,"charEnd":91}}]
+build.dart finished [941 ms]
+
+---
+build.dart --machine --changed=lib/d2048_grid.html --removed=lib/d2048-grid.html
+[{"method":"warning","params":{"file":"lib/d2048_grid.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"warning","params":{"file":"lib/d2048_game.html","message":"definition for Polymer element with tag name \"d2048-grid\" not found.","line":5,"charStart":79,"charEnd":91}}]
+build.dart finished [1007 ms]
+
+---
+build.dart --machine --changed=lib/d2048_game.html
+[{"method":"warning","params":{"file":"lib/d2048_grid.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"warning","params":{"file":"lib/d2048_grid.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"warning","params":{"file":"lib/d2048_game.html","message":"definition for Polymer element with tag name \"d2048-grid\" not found.","line":6,"charStart":124,"charEnd":136}}]
+build.dart finished [943 ms]
+
+---
+build.dart --machine --changed=lib/d2048_game.html
+[{"method":"warning","params":{"file":"lib/d2048_grid.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"warning","params":{"file":"lib/d2048_grid.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"warning","params":{"file":"lib/d2048_game.html","message":"definition for Polymer element with tag name \"d2048-grid\" not found.","line":4,"charStart":107,"charEnd":119}}]
+build.dart finished [961 ms]
+
+---
+build.dart --machine --changed=lib/d2048_grid.html
+
+build.dart finished [946 ms]
+
+---
+build.dart --machine --changed=lib/d2048_grid.html
+[{"method":"warning","params":{"file":"lib/d2048_grid.html","message":"definition for Polymer element with tag name \"d2048-cell\" not found.","line":5,"charStart":152,"charEnd":164}}]
+build.dart finished [961 ms]
+
+---
+build.dart --machine --changed=lib/d2048_game.html
+[{"method":"warning","params":{"file":"lib/d2048_grid.html","message":"definition for Polymer element with tag name \"d2048-cell\" not found.","line":5,"charStart":152,"charEnd":164}}]
+build.dart finished [948 ms]
+
+---
+build.dart --machine --changed=lib/d2048_game.html
+[{"method":"warning","params":{"file":"lib/d2048_grid.html","message":"definition for Polymer element with tag name \"d2048-cell\" not found.","line":5,"charStart":152,"charEnd":164}}]
+build.dart finished [938 ms]
+
+---
+build.dart --machine --changed=lib/d2048_game.html
+[{"method":"warning","params":{"file":"lib/d2048_grid.html","message":"definition for Polymer element with tag name \"d2048-cell\" not found.","line":5,"charStart":152,"charEnd":164}}]
+build.dart finished [934 ms]
+
+---
+build.dart --machine --changed=lib/d2048_grid.html
+[{"method":"error","params":{"file":"lib/d2048_grid.html","message":"couldn't find imported asset \"lib/d2048_cell.html\" in package \"dart_2048\".","line":2,"charStart":47,"charEnd":89}}]
+[{"method":"warning","params":{"file":"lib/d2048_grid.html","message":"definition for Polymer element with tag name \"d2048-cell\" not found.","line":6,"charStart":197,"charEnd":209}}]
+build failed with errors: {Transform polymer (Linter) on dart_2048|lib/d2048_grid.html threw error: couldn't find imported asset "lib/d2048_cell.html" in package "dart_2048".}
+build.dart finished [957 ms]
+
+---
+build.dart --machine --changed=lib/grid.html
+[{"method":"error","params":{"file":"lib/d2048_grid.html","message":"couldn't find imported asset \"lib/d2048_cell.html\" in package \"dart_2048\".","line":2,"charStart":47,"charEnd":89}}]
+[{"method":"warning","params":{"file":"lib/d2048_grid.html","message":"definition for Polymer element with tag name \"d2048-cell\" not found.","line":6,"charStart":197,"charEnd":209}}]
+build failed with errors: {Transform polymer (Linter) on dart_2048|lib/d2048_grid.html threw error: couldn't find imported asset "lib/d2048_cell.html" in package "dart_2048".}
+build.dart finished [958 ms]
+
+---
+build.dart --machine --changed=lib/grid.dart
+[{"method":"error","params":{"file":"lib/d2048_grid.html","message":"couldn't find imported asset \"lib/d2048_cell.html\" in package \"dart_2048\".","line":2,"charStart":47,"charEnd":89}}]
+[{"method":"warning","params":{"file":"lib/d2048_grid.html","message":"definition for Polymer element with tag name \"d2048-cell\" not found.","line":6,"charStart":197,"charEnd":209}}]
+build failed with errors: {Transform polymer (Linter) on dart_2048|lib/d2048_grid.html threw error: couldn't find imported asset "lib/d2048_cell.html" in package "dart_2048".}
+build.dart finished [967 ms]
+
+---
+build.dart --machine --changed=lib/grid.dart
+[{"method":"error","params":{"file":"lib/d2048_grid.html","message":"couldn't find imported asset \"lib/d2048_cell.html\" in package \"dart_2048\".","line":2,"charStart":47,"charEnd":89}}]
+[{"method":"warning","params":{"file":"lib/d2048_grid.html","message":"definition for Polymer element with tag name \"d2048-cell\" not found.","line":6,"charStart":197,"charEnd":209}}]
+build failed with errors: {Transform polymer (Linter) on dart_2048|lib/d2048_grid.html threw error: couldn't find imported asset "lib/d2048_cell.html" in package "dart_2048".}
+build.dart finished [971 ms]
+
+---
+build.dart --machine --removed=lib/d2048_grid.html
+[{"method":"error","params":{"file":"lib/d2048_game.html","message":"couldn't find imported asset \"lib/d2048_grid.html\" in package \"dart_2048\".","line":2,"charStart":47,"charEnd":89}}]
+[{"method":"warning","params":{"file":"lib/d2048_game.html","message":"definition for Polymer element with tag name \"d2048-grid\" not found.","line":4,"charStart":107,"charEnd":119}}]
+build failed with errors: {Transform polymer (Linter) on dart_2048|lib/d2048_game.html threw error: couldn't find imported asset "lib/d2048_grid.html" in package "dart_2048".}
+build.dart finished [943 ms]
+
+---
+build.dart --machine --changed=lib/d2048_game.html
+[{"method":"warning","params":{"file":"lib/d2048_game.html","message":"definition for Polymer element with tag name \"d2048-grid\" not found.","line":4,"charStart":101,"charEnd":113}}]
+build.dart finished [951 ms]
+
+---
+build.dart --machine --changed=lib/grid.html
+[{"method":"error","params":{"file":"lib/grid.html","message":"couldn't find imported asset \"lib/d2048_cell.html\" in package \"dart_2048\".","line":8,"charStart":103,"charEnd":145}}]
+[{"method":"warning","params":{"file":"lib/grid.html","message":"definition for Polymer element with tag name \"d2048-cell\" not found.","line":12,"charStart":269,"charEnd":281}}]
+build failed with errors: {Transform polymer (Linter) on dart_2048|lib/grid.html threw error: couldn't find imported asset "lib/d2048_cell.html" in package "dart_2048".}
+build.dart finished [951 ms]
+
+---
+build.dart --machine --changed=lib/grid.html
+[{"method":"warning","params":{"file":"lib/grid.html","message":"definition for Polymer element with tag name \"d2048-cell\" not found.","line":11,"charStart":220,"charEnd":232}}]
+build.dart finished [956 ms]
+
+---
+build.dart --machine --changed=lib/grid.html
+
+build.dart finished [931 ms]
+
+---
+build.dart --machine --changed=lib/d2048_game.html
+
+build.dart finished [954 ms]
+
+---
+build.dart --machine --changed=lib/grid.html
+
+build.dart finished [937 ms]
+
+---
+build.dart --machine --changed=web/dart_2048.html
+
+build.dart finished [949 ms]
+
+---
+build.dart --machine --changed=web/dart_2048.html
+[{"method":"warning","params":{"file":"web/dart_2048.html","message":"definition for Polymer element with tag name \"d2048-game\" not found.","line":24,"charStart":684,"charEnd":696}}]
+build.dart finished [957 ms]
+
+---
+build.dart --machine --changed=web/dart_2048.html
+[{"method":"error","params":{"file":"web/dart_2048.html","message":"couldn't find imported asset \"lib/d2048-game.html\" in package \"dart_2048\".","line":12,"charStart":310,"charEnd":371}}]
+[{"method":"warning","params":{"file":"web/dart_2048.html","message":"definition for Polymer element with tag name \"d2048-game\" not found.","line":24,"charStart":690,"charEnd":702}}]
+build failed with errors: {Transform polymer (Linter) on dart_2048|web/dart_2048.html threw error: couldn't find imported asset "lib/d2048-game.html" in package "dart_2048".}
+build.dart finished [944 ms]
+
+---
+build.dart --machine --changed=web/dart_2048.html
+
+build.dart finished [945 ms]
+
+---
+build.dart --machine --changed=lib/grid.dart
+
+build.dart finished [1008 ms]
+
+---
+build.dart --machine --changed=lib/grid.html
+
+build.dart finished [954 ms]
+
+---
+build.dart --machine --changed=lib/grid.html
+
+build.dart finished [948 ms]
+
+---
+build.dart --machine --changed=lib/grid.html
+
+build.dart finished [968 ms]
+
+---
+build.dart --machine --changed=lib/grid.html
+
+build.dart finished [978 ms]
+
+---
+build.dart --machine --changed=lib/grid.html
+
+build.dart finished [947 ms]
+
+---
+build.dart --machine --changed=lib/grid.html
+
+build.dart finished [948 ms]
+
+---
+build.dart --machine --changed=web/dart_2048.html
+
+build.dart finished [946 ms]
+
+---
+build.dart --machine --changed=lib/grid.html
+
+build.dart finished [978 ms]
+
+---
+build.dart --machine --changed=lib/grid.html
+
+build.dart finished [949 ms]
+
+---
+build.dart --machine --changed=lib/grid.html
+
+build.dart finished [958 ms]
+
+---
+build.dart --machine --changed=lib/grid.html
+
+build.dart finished [961 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart --removed=lib/grid.dart
+
+build.dart finished [947 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html --removed=lib/d2048_game.html
+[{"method":"error","params":{"file":"web/dart_2048.html","message":"couldn't find imported asset \"lib/d2048_game.html\" in package \"dart_2048\".","line":9,"charStart":217,"charEnd":278}}]
+[{"method":"warning","params":{"file":"web/dart_2048.html","message":"definition for Polymer element with tag name \"d2048-game\" not found.","line":15,"charStart":459,"charEnd":471}}]
+build failed with errors: {Transform polymer (Linter) on dart_2048|web/dart_2048.html threw error: couldn't find imported asset "lib/d2048_game.html" in package "dart_2048".}
+build.dart finished [965 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+[{"method":"error","params":{"file":"web/dart_2048.html","message":"couldn't find imported asset \"lib/d2048_game.html\" in package \"dart_2048\".","line":9,"charStart":217,"charEnd":278}}]
+[{"method":"warning","params":{"file":"web/dart_2048.html","message":"definition for Polymer element with tag name \"d2048-game\" not found.","line":15,"charStart":459,"charEnd":471}}]
+[{"method":"warning","params":{"file":"lib/grid.html","message":"duplicate definition for custom tag \"d2048-grid\".","line":4,"charStart":26,"charEnd":61}}]
+[{"method":"warning","params":{"file":"lib/d2048.html","message":"duplicate definition for custom tag \"d2048-grid\"  (second definition).","line":12,"charStart":200,"charEnd":235}}]
+[{"method":"warning","params":{"file":"lib/grid.html","message":"duplicate definition for custom tag \"d2048-row\".","line":35,"charStart":776,"charEnd":819}}]
+[{"method":"warning","params":{"file":"lib/d2048.html","message":"duplicate definition for custom tag \"d2048-row\"  (second definition).","line":43,"charStart":950,"charEnd":993}}]
+[{"method":"warning","params":{"file":"lib/grid.html","message":"duplicate definition for custom tag \"d2048-cell\".","line":36,"charStart":840,"charEnd":884}}]
+[{"method":"warning","params":{"file":"lib/d2048.html","message":"duplicate definition for custom tag \"d2048-cell\"  (second definition).","line":44,"charStart":1014,"charEnd":1058}}]
+build failed with errors: {Transform polymer (Linter) on dart_2048|web/dart_2048.html threw error: couldn't find imported asset "lib/d2048_game.html" in package "dart_2048".}
+build.dart finished [952 ms]
+
+---
+build.dart --machine --removed=lib/grid.html
+[{"method":"error","params":{"file":"lib/d2048.html","message":"couldn't find imported asset \"lib/grid.html\" in package \"dart_2048\".","line":6,"charStart":76,"charEnd":112}}]
+[{"method":"error","params":{"file":"web/dart_2048.html","message":"couldn't find imported asset \"lib/d2048_game.html\" in package \"dart_2048\".","line":9,"charStart":217,"charEnd":278}}]
+[{"method":"warning","params":{"file":"web/dart_2048.html","message":"definition for Polymer element with tag name \"d2048-game\" not found.","line":15,"charStart":459,"charEnd":471}}]
+build failed with errors: {Transform polymer (Linter) on dart_2048|lib/d2048.html threw error: couldn't find imported asset "lib/grid.html" in package "dart_2048"., Transform polymer (Linter) on dart_2048|web/dart_2048.html threw error: couldn't find imported asset "lib/d2048_game.html" in package "dart_2048".}
+build.dart finished [948 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+[{"method":"error","params":{"file":"web/dart_2048.html","message":"couldn't find imported asset \"lib/d2048_game.html\" in package \"dart_2048\".","line":9,"charStart":217,"charEnd":278}}]
+[{"method":"warning","params":{"file":"web/dart_2048.html","message":"definition for Polymer element with tag name \"d2048-game\" not found.","line":15,"charStart":459,"charEnd":471}}]
+build failed with errors: {Transform polymer (Linter) on dart_2048|web/dart_2048.html threw error: couldn't find imported asset "lib/d2048_game.html" in package "dart_2048".}
+build.dart finished [929 ms]
+
+---
+build.dart --machine --changed=web/dart_2048.html
+
+build.dart finished [948 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [958 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [944 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [955 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [945 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [946 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1050 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [969 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [952 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [968 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [944 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [958 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [938 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [955 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [978 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [981 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [963 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [964 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [954 ms]
+
+---
+build.dart --machine --changed=web/dart_2048.html
+
+build.dart finished [986 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [975 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1089 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [970 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [969 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [955 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1014 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [951 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [952 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [968 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [951 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [949 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [961 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [950 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [956 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [963 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [959 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [958 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [963 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [964 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [963 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [944 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [952 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [962 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [958 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [935 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [958 ms]
+
+---
+build.dart --machine --changed=web/dart_2048.dart
+
+build.dart finished [957 ms]
+
+---
+build.dart --machine --changed=web/dart_2048.html
+
+build.dart finished [975 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+[{"method":"warning","params":{"file":"lib/d2048.html","message":"Wrong script type, expected type=\"application/dart\".","line":75,"charStart":1755,"charEnd":1816}}]
+build.dart finished [942 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [951 ms]
+
+---
+build.dart --machine --changed=web/dart_2048.html
+
+build.dart finished [950 ms]
+
+---
+build.dart --machine --changed=web/dart_2048.dart
+
+build.dart finished [955 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [961 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [997 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1069 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1015 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1024 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [984 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [965 ms]
+
+---
+build.dart --machine --changed=web/dart_2048.dart
+
+build.dart finished [964 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1002 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [949 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1015 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1019 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [973 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [962 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [956 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [956 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1082 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [970 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1039 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [954 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [950 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [945 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [960 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [965 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [961 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [967 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1008 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [958 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [964 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1372 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1079 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [974 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [982 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [966 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [990 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [984 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [991 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [976 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [963 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [965 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [969 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [959 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [991 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [983 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1002 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [982 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [972 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [965 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [979 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1009 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [962 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [976 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [978 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [964 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [976 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [970 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [967 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1032 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1028 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [981 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [957 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [963 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [982 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [977 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [957 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [966 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [942 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [958 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [954 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [964 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [2472 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [2457 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [2741 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1089 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [970 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [946 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1021 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1032 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [977 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [973 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [960 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [946 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [945 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [967 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [978 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [963 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1099 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [959 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1017 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1039 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1068 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1051 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1088 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [971 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [977 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [978 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [966 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1091 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1078 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [964 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1022 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1020 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [961 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [972 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [983 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [980 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [971 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [977 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [971 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [955 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [955 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [969 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1009 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [969 ms]
+
+---
+build.dart --machine --changed=web/dart_2048.html
+
+build.dart finished [971 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [955 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [960 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1114 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1076 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1103 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1148 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [953 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [963 ms]
+
+---
+build.dart --machine --changed=web/dart_2048.css
+
+build.dart finished [984 ms]
+
+---
+build.dart --machine --changed=web/dart_2048.css
+
+build.dart finished [1029 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [973 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [970 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1066 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1215 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [989 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [970 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1009 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [989 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [996 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [971 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1003 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [973 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [979 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [965 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [962 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [974 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [998 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [998 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [972 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [961 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [965 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [971 ms]
+
+---
+build.dart --machine --changed=web/dart_2048.dart
+
+build.dart finished [974 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [971 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [980 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [977 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1036 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [974 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1104 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1076 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [983 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [976 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [968 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [954 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [973 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1079 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [976 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1006 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [965 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [998 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [963 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1053 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [976 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [966 ms]
+
+---
+build.dart --machine --changed=web/dart_2048.html
+
+build.dart finished [990 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [952 ms]
+
+---
+build.dart --machine --removed=web/dart_2048.css
+
+build.dart finished [961 ms]
+
+---
+build.dart --machine --removed=web/clickcounter.dart --removed=web/clickcounter.html
+
+build.dart finished [957 ms]
+
+---
+build.dart --machine --changed=web/dart_2048.html
+
+build.dart finished [997 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [974 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [950 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [959 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [967 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1092 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [961 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [969 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [969 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [966 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [975 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [966 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [968 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1017 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [990 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [982 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [980 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [987 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [979 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [979 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [968 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [969 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [968 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1029 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1019 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [965 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1027 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [986 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [957 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1135 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1027 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [987 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [980 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [961 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [992 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [974 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [961 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [962 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [966 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1000 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [992 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [976 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [971 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1277 ms]
+
+---
+build.dart --machine --changed=lib/d2048.css
+
+build.dart finished [1288 ms]
+
+---
+build.dart --machine --changed=lib/d2048.css
+
+build.dart finished [1179 ms]
+
+---
+build.dart --machine --changed=lib/d2048.css
+
+build.dart finished [1289 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1159 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1277 ms]
+
+---
+build.dart --machine --changed=lib/d2048.css
+
+build.dart finished [1152 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1193 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1195 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1161 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1164 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1268 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1267 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1262 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1191 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1170 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1179 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1201 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1179 ms]
+
+---
+build.dart --machine --changed=lib/d2048.dart
+
+build.dart finished [1173 ms]
+
+---
+build.dart --machine --changed=lib/d2048.html
+
+build.dart finished [1176 ms]
+
+---
+build.dart --machine --changed=web/dart_2048.dart
+
+build.dart finished [1152 ms]
+
+---
+build.dart --machine --changed=README.md
+
+build.dart finished [1187 ms]
+
+---
+build.dart --machine --changed=README.md
+
+build.dart finished [1165 ms]
+
+---
+build.dart --machine --changed=README.md
+
+build.dart finished [1186 ms]
+
+---
+build.dart --machine --changed=README.md
+
+build.dart finished [1161 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1098 ms]
+

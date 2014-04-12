@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+  <polymer-element name="d2048-game">
+    <template>
+      <link rel="stylesheet" href="d2048.css">
+      <h1>Polymer.Dart 2048</h1>
+      <div id="scoreboard">
+        <div id="score">{{ score }}</div>
+      </div>
+      <div id="info">
+        <button id="new-game" on-click="{{ start }}">New Game</button>
+      </div>
+      <div id="container">
+        <template if="{{ gameOver }}">
+          <div id="game-over">
+            <h1>Game Over!</h1>
+          </div>
+        </template>
+        <template if="{{ gameWon }}">
+          <div id="game-won">
+            <h1>You Won!</h1>
+          </div>
+        </template>
+        <div id="grid">
+          <template repeat="{{ row in ticks }}"><!-- 
+         --><div><!-- 
+           --><template repeat="{{ col in ticks }}"><!-- 
+               --><div class="cell"></div><!-- 
+           --></template><!-- 
+         --></div><!-- 
+       --></template>
+        </div>
+        <div id="tiles"></div>
+      </div>
+    </template>
+  </polymer-element>
+
+  <polymer-element name="d2048-tile">
+    <template>{{ value }}</template>
+  </polymer-element>
+  
+  <script type="application/dart" src="d2048.dart"></script>
+</html>
