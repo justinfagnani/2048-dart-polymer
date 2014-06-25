@@ -4,9 +4,8 @@
   <head>
     <meta charset="utf-8">
     <title>Dart 2048</title>
+    <script src="packages/web_components/platform.js"></script>
     <link rel="import" href="packages/dart_2048/d2048.html">
-    <script type="application/dart" src="dart_2048.dart"></script>
-    <script src="packages/browser/dart.js"></script>
     <style>
       body {
         background-color: #faf8ef;
@@ -16,5 +15,7 @@
   </head>
   <body>
     <d2048-game></d2048-game>
+    <script type="application/dart" src="dart_2048.dart"></script>
+    <script src="packages/browser/dart.js"></script>
   </body>
 </html>

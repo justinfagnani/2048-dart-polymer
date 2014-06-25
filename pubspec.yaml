@@ -1,7 +1,7 @@
 name: dart_2048
-description: A sample Polymer application
+description: 2048 in Dart
 dependencies:
-    polymer: any
+  polymer: ">=0.11.0 <0.12.0"
 transformers:
 - polymer:
     entry_points: web/dart_2048.html
